@@ -5,7 +5,6 @@ A Primer Parser for NGS Sequence Data
 mycut is a python script used for parsing primers from NGS data.  Inputted into the program is one FASTA file as well as the FORWARD and REVERSE primer sequences.  mycut will scan the FASTA reads for the primer sequences and, if found, will parse them out. The program takes 7 mandatory arguments:
 
 -in_file [FILE]: Specifies Inputted FASTA File
-
 -out_file [FILE]: Specifies Trimmed FASTA Reads Destination File
 
 -unk_file [FILE]: Specifies Untrimmed FASTA Reads Destination File
