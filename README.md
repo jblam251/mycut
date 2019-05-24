@@ -20,7 +20,7 @@ mycut is a python script used for parsing primers from NGS data.  Inputted into 
 
 
 
-
+### Outputs
 mycut will then output three files: 
 
   1. one file with the trimmed and processed reads
@@ -30,7 +30,7 @@ mycut will then output three files:
  
 
 
-EXAMPLES:
+### Examples
 
 python3 mycut_j-blamer.py –in_file merged.fasta  –out_file output.fasta –unk_file unk.fasta –n_mismatch 3 –min_len 150 -forward GTGCCAGCMGCCGCGGTAA  -reverse ACAGCCATGCANCACCT
 
